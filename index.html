@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #box{
+        width: 100%;
+        height: 100vh;
+        background-color: #ccc;
+    }
+    .heading{
+        text-align: center;
+        font-size: 30px;
+    }
+#num1{
+  margin-left: 220px;
+  margin-top: 20px;
+  /* background-color: ; */
+}
+#num2{
+    margin-left: 220px;
+  margin-top: 20px; 
+}
+#result{
+    margin-left: 220px;
+  margin-top: 20px;  
+}
+#btn1{
+    margin-left: 230px;
+  margin-top: 20px;
+  padding: 5px;
+}
+#btn2{
+    margin-left: 15px;
+  margin-top: 20px;
+  padding: 5px;
+}
+#btn3{
+    margin-left: 15px;
+  margin-top: 20px;
+  padding: 5px;
+}
+#btn4{
+margin-left: 15px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+</style>
+<body>
+    <div id="box">
+        <h3 class="heading">calculator</h3> <hr>
+<input type="number" placeholder="num 1" id="num1"> <br>
+<input type="number"  placeholder="num 2" id="num2"> <br>
+
+<button id="btn1" onclick="add()">+</button> 
+<button id="btn2" onclick="sub()">-</button> 
+<button id="btn3" onclick="mul()">*</button> 
+<button id="btn4"  onclick="div()">/</button> 
+<br>
+
+<input type="number" placeholder="result"  id="result">
+
+    </div>
+
+
+
+
+</body>
+  <script src="type.js"></script>
+
+</html>
